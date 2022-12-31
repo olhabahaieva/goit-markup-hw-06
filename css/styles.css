@@ -442,8 +442,38 @@ footer p {
   background-color: rgba(49, 208, 170, 1);
 }
 
+.form-btn-submit{
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--primary-background-color);
+  padding: 8px 64px 8px 24px;
+  border-radius: 4px;
 
 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;  
+  letter-spacing: 0.06em;
+}
+
+.footer-form-elements{
+  position: relative;
+}
+
+.form-btn-submit::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 310px;
+  width: 24px;
+  height: 20px;
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
 
 /*Client Logos*/
 .customers {
