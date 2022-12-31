@@ -501,7 +501,6 @@ footer p {
 }
 
 .input-subscribe::placeholder{
-  padding-left: 16px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   line-height: 2;
@@ -509,7 +508,8 @@ footer p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input-subscribe:focus{
+.input-subscribe:focus,
+.input-subscribe {
   color: var(--primary-background-color);
   padding-left: 16px;
   font-family: 'Roboto', sans-serif;
@@ -521,6 +521,8 @@ footer p {
 .input-subscribe:focus::placeholder{
   color: transparent;
 }
+
+
 
 /*Client Logos*/
 .customers {
