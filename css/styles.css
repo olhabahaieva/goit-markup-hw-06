@@ -747,13 +747,12 @@ footer p {
   transform: translate(-50%, -50%);
 }
 
-.order-service-label input[type="text"]:focus,
-.order-service-label input[type="phone"]:focus,
-.order-service-label input[type="email"]:focus{
+.input-name-field input:focus,
+.form-input-phone input:focus,
+.form-input-email input:focus,
+.order-service-label textarea:focus{
   border: 1px solid var(--accent-color);
 }
-
-
 
 /*Studio page ends*/
 
