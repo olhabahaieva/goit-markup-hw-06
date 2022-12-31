@@ -618,6 +618,7 @@ footer p {
 }
 
 .modal-window-button {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -626,6 +627,14 @@ footer p {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  box-shadow: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.modal-window-button:hover{
+  border:none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .modal-window-cross {
