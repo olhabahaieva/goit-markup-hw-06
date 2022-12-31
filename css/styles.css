@@ -754,6 +754,12 @@ footer p {
   border: 1px solid var(--accent-color);
 }
 
+.input-name-field:focus-within + svg,
+.form-input-phone:focus-within + svg,
+.form-input-email:focus-within +svg {
+  fill: var(--accent-color);
+}
+
 /*Studio page ends*/
 
 /*Portfolio page begins*/
