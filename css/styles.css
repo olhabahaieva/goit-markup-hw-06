@@ -689,26 +689,15 @@ footer p {
 }
 
 .form-input-comment::placeholder {
-  padding: 8px 16px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-input-comment:focus::placeholder{
+.form-input-comment:focus::placeholder {
   color: transparent;
 }
-
-.form-input-comment:focus-within {
-  font-family: 'Roboto', sans-serif;
-  padding: 8px 16px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--title-text-color);
-}
-
 
 .btn-modal{
   display: block;
@@ -726,6 +715,10 @@ footer p {
   margin-bottom: 8px;
   margin-top: 4px;
   padding-left: 34px;
+}
+
+.order-service-label > textarea {
+  padding: 8px 16px;
 }
 
 .form-input-name::after{
