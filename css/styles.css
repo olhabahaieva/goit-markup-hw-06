@@ -705,7 +705,7 @@ footer p {
   margin: 0 auto;
 }
 
-.form-input-name > input,
+.input-name-field > input,
 .form-input-phone > input,
 .form-input-email > input{
   height: 40px;
@@ -721,41 +721,39 @@ footer p {
   padding: 8px 16px;
 }
 
-.form-input-name::after{
-  content: "";
-  display: block;
-  position: absolute;
-  top: 43%;
-  left: 16px;
-  background-image: url(../images/person.svg);
-  width: 18px;
-  height: 18px;
-  transform: translate(-50% -50%);
+
+.order-service-label{
+  position: relative;
 }
 
-.form-input-phone::after{
-  content: "";
-  display: block;
+.input-name-person {
   position: absolute;
-  top: 40%;
-  left: 16px;
-  background-image: url(../images/phone.svg);
-  width: 18px;
-  height: 24px;
-  transform: translate(-50% -50%);
+  top: 55%;
+  left: 26px;
+  transform: translate(-50%, -50%);
 }
 
-.form-input-email::after{
-  content: "";
-  display: block;
+.input-name-phone {
   position: absolute;
-  top: 40%;
-  left: 16px;
-  background-image: url(../images/email.svg);
-  width: 18px;
-  height: 24px;
-  transform: translate(-50% -50%);
+  top: 58%;
+  left: 26px;
+  transform: translate(-50%, -50%);
 }
+
+.input-name-email {
+  position: absolute;
+  top: 58%;
+  left: 26px;
+  transform: translate(-50%, -50%);
+}
+
+.order-service-label input[type="text"]:focus,
+.order-service-label input[type="phone"]:focus,
+.order-service-label input[type="email"]:focus{
+  border: 1px solid var(--accent-color);
+}
+
+
 
 /*Studio page ends*/
 
