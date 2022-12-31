@@ -726,6 +726,12 @@ footer p {
   margin-top: 4px;
 }
 
+.form-input-name input:focus,
+.form-input-phone input:focus,
+.form-input-email input:focus {
+  padding-left: 34px;
+}
+
 .form-input-name::after{
   content: "";
   display: block;
@@ -742,7 +748,7 @@ footer p {
   content: "";
   display: block;
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 16px;
   background-image: url(../images/phone.svg);
   width: 18px;
@@ -754,7 +760,7 @@ footer p {
   content: "";
   display: block;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 16px;
   background-image: url(../images/email.svg);
   width: 18px;
