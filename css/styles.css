@@ -657,11 +657,38 @@ footer p {
 }
 
 .order-service-label {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto' sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #8E8F99;
+}
+
+.order-service-label > input{
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.order-service-label > textarea{
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.service-label-row{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto' sans-serif;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #8E8F99;
+  margin-bottom: 24px;
 }
 
 .order-service-modal{
