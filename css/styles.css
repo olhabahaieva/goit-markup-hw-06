@@ -452,19 +452,23 @@ footer p {
   background-color: rgba(49, 208, 170, 1);
 }
 
+.btn{
+  padding: 0;
+  margin:0;
+}
+
 .form-btn-submit{
   background-color: var(--accent-color);
   border: none;
   color: var(--primary-background-color);
   padding: 8px 64px 8px 24px;
   border-radius: 4px;
-
-
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;  
   letter-spacing: 0.06em;
+  margin-left: 12px;
 }
 
 .footer-form-elements{
@@ -477,7 +481,7 @@ footer p {
   display: block;
   position: absolute;
   top: 50%;
-  left: 400px;
+  left: 410px;
   width: 24px;
   height: 20px;
   background-image: url(../images/send.svg);
