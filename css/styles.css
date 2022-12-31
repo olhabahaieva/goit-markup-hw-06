@@ -715,6 +715,7 @@ footer p {
   margin-bottom: 8px;
   margin-top: 4px;
   padding-left: 34px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-label > textarea {
