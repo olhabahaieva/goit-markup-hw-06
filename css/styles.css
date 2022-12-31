@@ -654,6 +654,7 @@ footer p {
 
 .order-service-label {
   display: flex;
+  position: relative;
   width: 360px;
   flex-direction: column;
   font-family: 'Roboto' sans-serif;
@@ -663,23 +664,12 @@ footer p {
   color: #8E8F99;
 }
 
-.order-service-label > input{
-  height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-
 .order-service-label > textarea{
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
   margin-bottom: 16px;
-}
-
-.order-service-label > input {
-  margin-top: 4px;
 }
 
 .service-label-row{
@@ -723,6 +713,53 @@ footer p {
   display: block;
   width: 170px;
   margin: 0 auto;
+}
+
+.form-input-name > input,
+.form-input-phone > input,
+.form-input-email > input{
+  height: 40px;
+  width: 360px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.form-input-name::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 43%;
+  left: 16px;
+  background-image: url(../images/person.svg);
+  width: 18px;
+  height: 18px;
+  transform: translate(-50% -50%);
+}
+
+.form-input-phone::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 38%;
+  left: 16px;
+  background-image: url(../images/phone.svg);
+  width: 18px;
+  height: 24px;
+  transform: translate(-50% -50%);
+}
+
+.form-input-email::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 16px;
+  background-image: url(../images/email.svg);
+  width: 18px;
+  height: 24px;
+  transform: translate(-50% -50%);
 }
 
 /*Studio page ends*/
