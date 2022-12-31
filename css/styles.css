@@ -641,9 +641,32 @@ footer p {
   fill: rgba(0, 0, 0, 1);
 }
 
+.order-service-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
 .order-service-modal{
   display: flex;
   flex-direction: column;
+}
+
+.order-service-label {
+  font-family: 'Roboto' sans-serif;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #8E8F99;
+}
+
+.order-service-modal{
+  display: flex;
+  width: 100%;
 }
 
 /*Studio page ends*/
