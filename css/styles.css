@@ -509,6 +509,15 @@ footer p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.input-subscribe:focus{
+  color: var(--primary-background-color);
+  padding-left: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
 /*Client Logos*/
 .customers {
   text-align: center;
