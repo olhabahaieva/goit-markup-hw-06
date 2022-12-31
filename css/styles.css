@@ -406,6 +406,8 @@ footer p {
 
 .footer-wrap {
   display: flex;
+  padding-right: 0;
+  justify-content: space-between;
 }
 
 .footer-about-company{
@@ -485,6 +487,8 @@ footer p {
 }
 
 .input-subscribe{
+  padding: 0;
+  margin: 0;
   height: 40px;
   width: 264px;
   background-color: transparent;
