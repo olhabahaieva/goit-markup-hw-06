@@ -604,7 +604,7 @@ footer p {
 .modal {
   display: flex;
   position: absolute;
-  justify-content: flex-end;
+  
   top: 50%;
   left: 50%;
   width: 408px;
