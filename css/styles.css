@@ -603,11 +603,9 @@ footer p {
 .modal {
   display: flex;
   position: absolute;
-  
+  justify-content: center;
   top: 50%;
   left: 50%;
-  width: 408px;
-  height: 576px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -649,6 +647,7 @@ footer p {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 16px;
 }
 
 .order-service-modal{
@@ -658,6 +657,7 @@ footer p {
 
 .order-service-label {
   display: flex;
+  width: 360px;
   flex-direction: column;
   font-family: 'Roboto' sans-serif;
   font-size: 12px;
@@ -677,18 +677,28 @@ footer p {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.order-service-label > input {
+  margin-top: 4px;
 }
 
 .service-label-row{
   display: flex;
   flex-direction: row;
+  width: 360px;
   font-family: 'Roboto' sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #8E8F99;
   margin-bottom: 24px;
+}
+
+.service-label-row > input{
+  margin-right: 8px;
 }
 
 .order-service-modal{
