@@ -177,6 +177,7 @@ footer a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 /*Header - main navigation*/
@@ -399,13 +400,20 @@ footer {
   align-items: center;
 }
 footer p {
-  width: 264px;
+
   margin-top: 16px;
 }
 
 .footer-wrap {
   display: flex;
-  gap: 120px;
+}
+
+.footer-about-company{
+  margin-right: 120px;
+}
+
+.footer-social{
+  margin-right: 80px;
 }
 
 .footer-social-icons {
@@ -458,6 +466,7 @@ footer p {
 }
 
 .footer-form-elements{
+  margin-top: 16px;
   position: relative;
 }
 
@@ -466,13 +475,30 @@ footer p {
   display: block;
   position: absolute;
   top: 50%;
-  left: 310px;
+  left: 400px;
   width: 24px;
   height: 20px;
   background-image: url(../images/send.svg);
   background-repeat: no-repeat;
   background-size: cover;
   transform: translate(-50%, -50%);
+}
+
+.input-subscribe{
+  height: 40px;
+  width: 264px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.input-subscribe::placeholder{
+  padding-left: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*Client Logos*/
