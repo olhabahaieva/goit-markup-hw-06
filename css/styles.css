@@ -518,6 +518,10 @@ footer p {
   letter-spacing: 0.04em;
 }
 
+.input-subscribe:focus::placeholder{
+  color: transparent;
+}
+
 /*Client Logos*/
 .customers {
   text-align: center;
