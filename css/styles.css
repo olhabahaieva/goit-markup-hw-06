@@ -765,6 +765,21 @@ footer p {
   fill: var(--accent-color);
 }
 
+.order-service-comment {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid var(--title-text-color);
+  border-radius: 2px;
+}
+
+
 /*Studio page ends*/
 
 /*Portfolio page begins*/
