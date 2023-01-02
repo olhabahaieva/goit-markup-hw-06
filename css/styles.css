@@ -400,7 +400,6 @@ footer {
   align-items: center;
 }
 footer p {
-
   margin-top: 16px;
 }
 
@@ -410,11 +409,11 @@ footer p {
   justify-content: space-between;
 }
 
-.footer-about-company{
+.footer-about-company {
   margin-right: 120px;
 }
 
-.footer-social{
+.footer-social {
   margin-right: 80px;
 }
 
@@ -452,31 +451,31 @@ footer p {
   background-color: rgba(49, 208, 170, 1);
 }
 
-.btn{
+.btn {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
-.form-btn-submit{
+.form-btn-submit {
   background-color: var(--accent-color);
   border: none;
   color: var(--primary-background-color);
   padding: 8px 64px 8px 24px;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.5;  
+  line-height: 1.5;
   letter-spacing: 0.06em;
   margin-left: 12px;
 }
 
-.footer-form-elements{
+.footer-form-elements {
   margin-top: 16px;
   position: relative;
 }
 
-.form-btn-submit::before{
+.form-btn-submit::before {
   content: "";
   display: block;
   position: absolute;
@@ -490,7 +489,7 @@ footer p {
   transform: translate(-50%, -50%);
 }
 
-.input-subscribe{
+.input-subscribe {
   padding: 0;
   margin: 0;
   height: 40px;
@@ -500,8 +499,8 @@ footer p {
   border-radius: 4px;
 }
 
-.input-subscribe::placeholder{
-  font-family: 'Roboto', sans-serif;
+.input-subscribe::placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -512,17 +511,15 @@ footer p {
 .input-subscribe {
   color: var(--primary-background-color);
   padding-left: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
 }
 
-.input-subscribe:focus::placeholder{
+.input-subscribe:focus::placeholder {
   color: transparent;
 }
-
-
 
 /*Client Logos*/
 .customers {
@@ -614,8 +611,6 @@ footer p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .modal-window-button {
   cursor: pointer;
   display: flex;
@@ -632,17 +627,18 @@ footer p {
   margin-bottom: 24px;
 }
 
-.modal-window-button:hover{
+.modal-window-button:hover {
   border: none;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .modal-window-cross {
   fill: rgba(0, 0, 0, 1);
 }
 
-.order-service-text{
-  font-family: 'Roboto', sans-serif;
+.order-service-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -657,14 +653,14 @@ footer p {
   position: relative;
   width: 360px;
   flex-direction: column;
-  font-family: 'Roboto' sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #8E8F99;
+  color: #8e8f99;
 }
 
-.order-service-label > textarea{
+.order-service-label > textarea {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -672,26 +668,26 @@ footer p {
   margin-bottom: 16px;
 }
 
-.service-label-row{
+.service-label-row {
   display: flex;
   position: absolute;
   left: 16px;
   flex-direction: row;
   width: 360px;
-  font-family: 'Roboto' sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #8E8F99;
+  color: #8e8f99;
   align-items: center;
 }
 
-.service-label-row > input{
+.service-label-row > input {
   margin-right: 8px;
 }
 
 .form-input-comment::placeholder {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -701,7 +697,7 @@ footer p {
   color: transparent;
 }
 
-.btn-modal{
+.btn-modal {
   display: block;
   width: 170px;
   margin: 0 auto;
@@ -710,7 +706,7 @@ footer p {
 
 .input-name-field > input,
 .form-input-phone > input,
-.form-input-email > input{
+.form-input-email > input {
   height: 40px;
   width: 360px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -726,8 +722,7 @@ footer p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.order-service-label{
+.order-service-label {
   position: relative;
 }
 
@@ -758,13 +753,13 @@ footer p {
 .input-name-field input:focus,
 .form-input-phone input:focus,
 .form-input-email input:focus,
-.order-service-label textarea:focus{
+.order-service-label textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
 .input-name-field:focus-within + svg,
 .form-input-phone:focus-within + svg,
-.form-input-email:focus-within +svg {
+.form-input-email:focus-within + svg {
   fill: var(--accent-color);
 }
 
@@ -772,7 +767,6 @@ footer p {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
 }
 
 .checkbox-icon {
@@ -782,7 +776,7 @@ footer p {
   border: 1.25px solid var(--title-text-color);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 }
 
@@ -795,11 +789,10 @@ footer p {
 }
 
 .privacy-policy-link {
- color: var(--accent-clicked-butoon);
- padding-left: 4px;
- cursor: pointer;
+  color: var(--accent-clicked-butoon);
+  padding-left: 4px;
+  cursor: pointer;
 }
-
 
 /*Studio page ends*/
 
