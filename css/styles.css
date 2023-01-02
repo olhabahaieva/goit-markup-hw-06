@@ -622,15 +622,19 @@ footer p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   box-shadow: none;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-bottom: 24px;
 }
 
-.modal-window-button:hover {
+.modal-window-button:hover,
+.modal-window-button:focus {
   border: none;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: var(--accent-color);
+}
+
+.modal-window-button:hover .modal-window-cross{
+  fill: var(--primary-background-color);
 }
 
 .modal-window-cross {
@@ -792,6 +796,7 @@ footer p {
   color: var(--accent-clicked-butoon);
   padding-left: 4px;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 /*Studio page ends*/
